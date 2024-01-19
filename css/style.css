@@ -179,3 +179,30 @@ main {
     padding: 70px;
 }
 
+.entradas {
+    text-align: center;
+}
+
+.entradas ul{
+    list-style: none;
+    padding: 0;
+}
+
+.entradas li{
+    margin-bottom: 10px;
+}
+
+.entradas div{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-decoration: solid;
+    color: #000000;
+    background-color: #FDB827;
+}
+
+.entradas a{
+    color: black;
+    text-decoration: none;
+}
