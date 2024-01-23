@@ -224,7 +224,7 @@ main {
     color: #FDB827;
 }
 
-/* MediaQ */
+/* MediaQ - Mobile */
 
 @media only screen and (max-width: 480px) {
  
@@ -249,6 +249,13 @@ header ul{
     margin: 10px;
 }
 .entradas{
-    font-size: medium;
+    font-size: 12px;
+    text-align: start;
 }
+}
+
+/* MediaQ - Tablet */
+
+@media only screen and (min-width: 481px) and (max-width: 950px){
+    
 }
