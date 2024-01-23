@@ -215,6 +215,15 @@ main {
     text-decoration: none;
 }
 
+.visitante{
+    text-align: center;
+    color: #f1f1f1;
+}
+
+.locales{
+    color: #FDB827;
+}
+
 /* MediaQ */
 
 @media only screen and (max-width: 480px) {
@@ -238,5 +247,8 @@ header ul{
     display: flex;
     flex-direction: column;
     margin: 10px;
+}
+.entradas{
+    font-size: medium;
 }
 }
