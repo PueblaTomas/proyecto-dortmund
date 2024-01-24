@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Contacto - BvB Argentina </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="shortcut icon" href="../images/dortmund.arg.logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -21,28 +22,68 @@
         </div>
     </header>
         <main>
-            <h2> ¿Queres ser parte de esta gran Familia?</h2>
-                 <section>
-                    <h3> Contactanos! </h3>
-                <fieldset>  
-                    <legend>¿Queres ser parte de nosotros?</legend>
-                     <form>
-                    <label for="nombre"> Nombre y apellido:</label>
-                    <input type="text" name="" id="nombre" placeholder="Ej: Tomás Puebla">
-                    <div>
-                        <label for="mail">E-mail:</label>
-                        <input type="email" name="" id="mail" placeholder="Ej: Borussia@Dortmund.com">
-                    </div>
-                    <div>
-                        <label for="mensaje"> Contanos porqué queres ser parte:</label>
-                        <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
-                        
-                    </div>
-                </form>
-            </fieldset>
-                </section>
-        </main>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  ¿Quienes Somos?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                    <p><strong>Somos un grupo apasionado de amigos </strong> que comparte una devoción inquebrantable por uno de los clubes más fascinantes y emocionantes del mundo: el Borussia Dortmund. Nos unimos con la misión común de crear un espacio virtual donde los amantes del fútbol y, en particular, los seguidores del Borussia, puedan conectarse, compartir su entusiasmo y estar al tanto de todas las novedades del equipo.
 
+                    Nuestra historia comienza con la idea de fusionar nuestras pasiones individuales por el Borussia Dortmund y las redes sociales. Nos dimos cuenta de que había una comunidad creciente de seguidores apasionados que buscaban un lugar para expresar su amor por el equipo amarillo y negro. Fue entonces cuando decidimos unir fuerzas y crear esta Fan Page, con la esperanza de brindar a los aficionados un espacio acogedor y vibrante donde pudieran celebrar juntos las victorias, superar las derrotas y compartir su amor por el juego.
+                    
+                    Lo que nos distingue es nuestra diversidad y la energía positiva que cada uno de nosotros aporta al grupo. Somos amigos que comparten risas, momentos emocionantes del juego y, sobre todo, la camaradería que solo el fútbol puede proporcionar. En nuestra Fan Page, todos son bienvenidos, independientemente de su ubicación geográfica, edad o antecedentes. Aquí, nos unimos a través de la pasión por el Borussia Dortmund y construimos amistades duraderas.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    ¿Cuál es el objetivo principal al administrar esta Fan Page?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <strong>Nuestro objetivo principal al gestionar esta Fan Page es crear un espacio inclusivo </strong> y vibrante donde los apasionados seguidores del Borussia Dortmund puedan conectarse, compartir su amor por el equipo y estar al tanto de las últimas noticias y acontecimientos. Buscamos construir una comunidad donde cada miembro se sienta parte de algo especial, donde las emociones compartidas durante las victorias y el apoyo mutuo durante los desafíos fortalezcan los lazos entre nosotros. Además, aspiramos a proporcionar contenido informativo, entretenido y de calidad que enriquezca la experiencia de los seguidores y promueva la pasión por el fútbol y, especialmente, por el Borussia Dortmund. En última instancia, nuestro objetivo es celebrar la grandeza del equipo y fomentar una comunidad unida que comparte la alegría de ser parte de la familia Borusse. ¡Juntos, hacemos de esta Fan Page un rincón especial para todos los amantes del fútbol y del Borussia Dortmund!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    ¿Cómo pueden los seguidores ponerse en contacto con nosotros?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <strong>Aqui debajo podran encontrar una caja en la cual podrán completar sus datos personales.</strong> De esta manera, nos contactaremos con ústed y le consultaremos si estas dispuesto a sumarte a esa gran familia amarillo y negra que no para de crecer día a día.
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+            <section>
+                <h3> Contactanos! </h3>
+                    <fieldset>  
+                     <legend>¿Queres ser parte de nosotros?</legend>
+                        <form>
+                            <label for="nombre"> Nombre y apellido:</label>
+                            <input type="text" name="" id="nombre" placeholder="Ej: Tomás Puebla">
+                        <div>
+                            <label for="mail">E-mail:</label>
+                            <input type="email" name="" id="mail" placeholder="Ej: Borussia@Dortmund.com">
+                        </div>
+                        <div>
+                            <label for="mensaje"> Contanos porqué queres ser parte:</label>
+                            <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+               
+                        </div>
+       </form>
+   </fieldset>
+       </section>
         <footer>
             <img src="../images/logo.png" alt="dortmund logo">
             <a href="https://discord.com/invite/ZznSMdvS2J"><img src="../images/discord.png" alt="discord"> </a>
@@ -51,5 +92,6 @@
             <a href="https://web.whatsapp.com/"><img src="../images/whatsapp.png" alt="whatsapp"> </a>
             <a href="https://www.tiktok.com/@bvb?lang=es"><img src="../images/tiktok.png" alt="tiktok"> </a>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

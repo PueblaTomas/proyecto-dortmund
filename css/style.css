@@ -252,10 +252,9 @@ header ul{
     font-size: 12px;
     text-align: start;
 }
+
+.palmares div p {
+    font-size: 20px;
 }
 
-/* MediaQ - Tablet */
-
-@media only screen and (min-width: 481px) and (max-width: 950px){
-    
 }
