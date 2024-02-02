@@ -1,0 +1,29 @@
+@import "./generales/variables";
+
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin: 0;
+    padding: 0
+}
+
+html{
+    font-family: $font;
+    font-size: 62.5%;
+}
+
+body{
+    background-color: $negro
+}
+
+@import "../sass/generales/headerFooter";
+
+@import "../sass/page/index";
+@import "../sass/page/calendario";
+@import "../sass/page/contacto";
+@import "../sass/page/galeria";
+@import "../sass/page/palmares";
+
+@import "./generales/mediaQ";
