@@ -1,0 +1,54 @@
+h3{
+    color: $amarillo;
+    text-align: center;
+    font-size: xx-large;
+}
+.legend2{
+    display: flex;
+    justify-content: center;
+    color: $amarillo;
+    font-size: 20px;
+}
+.formulario{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 30.5vw;
+    .legend{
+        align-self: center;
+        color: white;
+        font-size: 20px;
+        margin: 5px;
+        .formulario input {
+            width: 300px;   
+            height: 30px;
+            font-size: 14px;
+            align-self: center;
+        }
+    }
+}
+.boton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    button{
+        font-size: 15px;
+        background-color: $amarillo;
+        border: 1px solid $negro;
+        width: 75px;
+        height: 50px;
+    }
+}
+
+.accordion {
+    z-index: 1; 
+    position: relative;
+    .accordion-header h2 {
+        font-size: 24px; 
+        .accordion-button {
+            font-size: 18px;
+        }
+    }
+}
+.accordion.show {
+    z-index: 2; 
+}

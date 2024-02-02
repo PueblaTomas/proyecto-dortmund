@@ -35,7 +35,16 @@ header{
 footer{
     background-color: $amarillo;
     display: flex;
+    justify-content: space-between;
     footer img{
         width: 80px;
+        .copy{
+            display: flex;
+            align-items: center;
+            font-size: 13px;
+        }
     }
+    .redes{
+        padding: 15px;
+    }  
 }

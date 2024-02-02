@@ -1,0 +1,20 @@
+.palmares{
+    display: flex;
+    flex-direction: column;
+    .palmares div{
+        display: flex;
+        flex-direction: row;
+        .palmares img {
+            width: 180px;
+            height: 175px;
+            display: block;
+            .palmares div p{
+                font-family: 'Anton', sans-serif;
+                font-size: xx-large;
+                display: flex;
+                align-items: center;
+                padding: 70px;
+            }
+        }
+    }
+}

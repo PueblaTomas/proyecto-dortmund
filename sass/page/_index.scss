@@ -1,0 +1,24 @@
+main {
+    color: $blanco;
+    font-size: x-large;
+    .perfil{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+    .bienvenida {
+        margin: 10px;
+        text-align: center;
+        .bienvenida p{
+            margin: 20px;
+        }
+    }
+    .nosotros{
+        display: flex;
+        flex-direction: column;
+        .snosotros{
+            flex: 0 0 45%;
+            width: 140%;
+        }
+    }
+}

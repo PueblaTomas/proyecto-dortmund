@@ -49,9 +49,181 @@ header .menu header ul header li header a {
 footer {
   background-color: #FDB827;
   display: flex;
+  justify-content: space-between;
 }
 footer footer img {
   width: 80px;
+}
+footer footer img .copy {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+footer .redes {
+  padding: 15px;
+}
+
+main {
+  color: #F1F1F1;
+  font-size: x-large;
+}
+main .perfil {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+main .bienvenida {
+  margin: 10px;
+  text-align: center;
+}
+main .bienvenida .bienvenida p {
+  margin: 20px;
+}
+main .nosotros {
+  display: flex;
+  flex-direction: column;
+}
+main .nosotros .snosotros {
+  flex: 0 0 45%;
+  width: 140%;
+}
+
+.secun {
+  color: #FDB827;
+  font-size: xx-large;
+  text-align: center;
+  padding: 25px;
+  margin: 40px;
+}
+
+.locales {
+  color: #FDB827;
+}
+
+.visitante {
+  text-align: center;
+  color: #F1F1F1;
+}
+
+.entradas ul {
+  list-style: none;
+  padding: 0;
+}
+.entradas ul .entradas li {
+  margin-bottom: 10px;
+}
+.entradas ul .entradas li .entradas div {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-decoration: solid;
+  color: #0A0A0A;
+  background-color: #FDB827;
+}
+.entradas ul .entradas li .entradas div .entradas a {
+  color: #0A0A0A;
+  text-decoration: none;
+}
+
+h3 {
+  color: #FDB827;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.legend2 {
+  display: flex;
+  justify-content: center;
+  color: #FDB827;
+  font-size: 20px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 30.5vw;
+}
+.formulario .legend {
+  align-self: center;
+  color: white;
+  font-size: 20px;
+  margin: 5px;
+}
+.formulario .legend .formulario input {
+  width: 300px;
+  height: 30px;
+  font-size: 14px;
+  align-self: center;
+}
+
+.boton {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.boton button {
+  font-size: 15px;
+  background-color: #FDB827;
+  border: 1px solid #0A0A0A;
+  width: 75px;
+  height: 50px;
+}
+
+.accordion {
+  z-index: 1;
+  position: relative;
+}
+.accordion .accordion-header h2 {
+  font-size: 24px;
+}
+.accordion .accordion-header h2 .accordion-button {
+  font-size: 18px;
+}
+
+.accordion.show {
+  z-index: 2;
+}
+
+.secun {
+  color: #FDB827;
+  font-size: xx-large;
+  text-align: center;
+  padding: 25px;
+  margin: 40px;
+}
+
+.padre {
+  display: grid;
+  grid-template-rows: repeat(2, 2fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.padre .padre img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.palmares {
+  display: flex;
+  flex-direction: column;
+}
+.palmares .palmares div {
+  display: flex;
+  flex-direction: row;
+}
+.palmares .palmares div .palmares img {
+  width: 180px;
+  height: 175px;
+  display: block;
+}
+.palmares .palmares div .palmares img .palmares div p {
+  font-family: "Anton", sans-serif;
+  font-size: xx-large;
+  display: flex;
+  align-items: center;
+  padding: 70px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
