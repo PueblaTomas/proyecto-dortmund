@@ -1,3 +1,16 @@
+.local1 {
+  text-align: center;
+  font-size: 35px;
+  color: $amarillo;
+ 
+}
+.visitante {
+  font-size: 30px;
+  text-align: center;
+  color: $blanco;
+  margin-bottom: 30px;
+}
+
 .entradas {
   text-align: center;
   list-style: none;
@@ -8,6 +21,8 @@
   }
 
   li {
+    font-size: 20px;
+    color: $blanco;
     margin-bottom: 10px;
 
     div {
@@ -24,11 +39,6 @@
         text-decoration: none;
       }
     }
-  }
-
-  .visitante {
-    text-align: center;
-    color: $blanco;
   }
 
   .locales {
