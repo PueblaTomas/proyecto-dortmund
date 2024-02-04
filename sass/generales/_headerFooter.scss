@@ -1,50 +1,75 @@
-header{
-    display: flex;
-    flex-direction: column;
-    background-color: $amarillo;
-    position: sticky;
-    top: 0%;
-    .header1 {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 5px;
-    }
-    header img{
-        width: 110px;
-    }
-    .menu{
-        
-        header ul{
-            list-style: none;
-            display: inline-block;
-            font-style: italic;
-            font-size: xx-large;
-            margin-right: 20px;
-            header li{
-                list-style: none;
-                header a{
-                    color: $negro;
-                    text-decoration: none;
-                }
-            }
-        }
-    }
-}
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: $amarillo;
+  position: sticky;
+  top: 0%;
+  list-style: none;
+  z-index: 3; /* Asegura que el encabezado esté sobre el acordeón */
 
-footer{
-    background-color: $amarillo;
+  .header1 {
     display: flex;
     justify-content: space-between;
-    footer img{
-        width: 80px;
-        .copy{
-            display: flex;
-            align-items: center;
-            font-size: 13px;
-        }
+    align-items: center;
+    padding: 5px;
+
+    img {
+      width: 111px;
     }
-    .redes{
-        padding: 15px;
-    }  
+
+    nav {
+      ul {
+        list-style: none;
+        display: inline-block;
+        font-style: italic;
+        font-size: xx-large;
+        margin-right: 20px;
+
+        li {
+          list-style: none;
+
+          a {
+            color: $negro;
+
+            &:hover {
+              font-size: 50px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
+  
+    .header2 {
+      p.titulo2 {
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+      }
+    }
+  
+  
+  footer {
+    background-color:$amarillo;
+    display: flex;
+    justify-content: space-between;
+  
+    img {
+      width: 80px;
+    }
+  
+    .copy {
+      display: flex;
+      align-items: center;
+      font-size: 13px;
+    }
+  
+    .redess {
+      a {
+        img.redes {
+          padding: 15px;
+        }
+      }
+    }
+  }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Estilos generales */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
@@ -21,6 +22,8 @@ header {
   background-color: #FDB827;
   position: sticky;
   top: 0%;
+  list-style: none;
+  z-index: 3; /* Asegura que el encabezado esté sobre el acordeón */
 }
 header .header1 {
   display: flex;
@@ -28,22 +31,30 @@ header .header1 {
   align-items: center;
   padding: 5px;
 }
-header header img {
-  width: 110px;
+header .header1 img {
+  width: 111px;
 }
-header .menu header ul {
+header .header1 nav ul {
   list-style: none;
   display: inline-block;
   font-style: italic;
   font-size: xx-large;
   margin-right: 20px;
 }
-header .menu header ul header li {
+header .header1 nav ul li {
   list-style: none;
 }
-header .menu header ul header li header a {
+header .header1 nav ul li a {
   color: #0A0A0A;
-  text-decoration: none;
+}
+header .header1 nav ul li a:hover {
+  font-size: 50px;
+}
+
+.header2 p.titulo2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 footer {
@@ -51,41 +62,69 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-footer footer img {
+footer img {
   width: 80px;
 }
-footer footer img .copy {
+footer .copy {
   display: flex;
   align-items: center;
   font-size: 13px;
 }
-footer .redes {
+footer .redess a img.redes {
   padding: 15px;
 }
 
-main {
-  color: #F1F1F1;
+.banner {
+  background-image: url(../images/banner.jpg);
+  height: 240px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
   font-size: x-large;
 }
-main .perfil {
+
+.perfil {
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
 }
-main .bienvenida {
-  margin: 10px;
+.perfil section {
+  flex: 1;
+}
+.perfil section h3 {
+  color: #FDB827 !important;
+  font-size: 35px;
   text-align: center;
 }
-main .bienvenida .bienvenida p {
-  margin: 20px;
+
+.bienvenida {
+  margin: 30px;
+  text-align: center;
 }
-main .nosotros {
+.bienvenida p {
+  margin: 20px;
+  font-size: 25px;
+  color: #F1F1F1;
+}
+.bienvenida p .p .boru {
+  font-size: 30px;
+  color: #FDB827;
+}
+
+.nosotros {
   display: flex;
   flex-direction: column;
 }
-main .nosotros .snosotros {
+
+.snosotros {
   flex: 0 0 45%;
   width: 140%;
+}
+
+div.nosotros img {
+  width: 100%;
+  height: 50%;
+  margin: 20px;
 }
 
 .secun {
@@ -96,40 +135,44 @@ main .nosotros .snosotros {
   margin: 40px;
 }
 
-.locales {
-  color: #FDB827;
-}
-
 .visitante {
   text-align: center;
   color: #F1F1F1;
 }
 
+.entradas {
+  text-align: center;
+  list-style: none;
+}
 .entradas ul {
   list-style: none;
   padding: 0;
 }
-.entradas ul .entradas li {
+.entradas li {
   margin-bottom: 10px;
 }
-.entradas ul .entradas li .entradas div {
+.entradas li div {
   display: inline-block;
   padding: 5px 10px;
-  border: 1px solid #000;
+  border: 1px solid #0A0A0A;
   border-radius: 5px;
   text-decoration: solid;
   color: #0A0A0A;
   background-color: #FDB827;
 }
-.entradas ul .entradas li .entradas div .entradas a {
+.entradas li div a {
   color: #0A0A0A;
   text-decoration: none;
 }
-
-h3 {
+.entradas li.locales {
   color: #FDB827;
-  text-align: center;
-  font-size: xx-large;
+}
+
+.legend {
+  align-self: center;
+  color: #F1F1F1;
+  font-size: 20px;
+  margin: 5px;
 }
 
 .legend2 {
@@ -145,17 +188,18 @@ h3 {
   flex-direction: column;
   width: 30.5vw;
 }
-.formulario .legend {
-  align-self: center;
-  color: white;
-  font-size: 20px;
-  margin: 5px;
-}
-.formulario .legend .formulario input {
+.formulario input {
   width: 300px;
   height: 30px;
   font-size: 14px;
   align-self: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
 }
 
 .boton {
@@ -174,15 +218,14 @@ h3 {
   z-index: 1;
   position: relative;
 }
+.accordion.show {
+  z-index: 2;
+}
 .accordion .accordion-header h2 {
   font-size: 24px;
 }
-.accordion .accordion-header h2 .accordion-button {
+.accordion .accordion-header .accordion-button {
   font-size: 18px;
-}
-
-.accordion.show {
-  z-index: 2;
 }
 
 .secun {
@@ -199,31 +242,34 @@ h3 {
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
-.padre .padre img {
+.padre img {
   width: 100%;
   height: 100%;
   display: block;
 }
 
-.palmares {
-  display: flex;
-  flex-direction: column;
+.secun {
+  color: #FDB827;
+  font-size: xx-large;
+  text-align: center;
+  padding: 25px;
+  margin: 40px;
 }
-.palmares .palmares div {
+
+.palmares div {
   display: flex;
   flex-direction: row;
 }
-.palmares .palmares div .palmares img {
-  width: 180px;
-  height: 175px;
-  display: block;
-}
-.palmares .palmares div .palmares img .palmares div p {
+.palmares div p {
   font-family: "Anton", sans-serif;
   font-size: xx-large;
   display: flex;
   align-items: center;
   padding: 70px;
+}
+
+.ligas {
+  color: #FDB827;
 }
 
 /*# sourceMappingURL=estilos.css.map */

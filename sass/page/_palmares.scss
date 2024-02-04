@@ -1,20 +1,26 @@
-.palmares{
+.secun {
+  color: $amarillo;
+  font-size: xx-large;
+  text-align: center;
+  padding: 25px;
+  margin: 40px;
+}
+
+.palmares {
+  div {
     display: flex;
-    flex-direction: column;
-    .palmares div{
-        display: flex;
-        flex-direction: row;
-        .palmares img {
-            width: 180px;
-            height: 175px;
-            display: block;
-            .palmares div p{
-                font-family: 'Anton', sans-serif;
-                font-size: xx-large;
-                display: flex;
-                align-items: center;
-                padding: 70px;
-            }
-        }
+    flex-direction: row;
+
+    p {
+      font-family: 'Anton', sans-serif;
+      font-size: xx-large;
+      display: flex;
+      align-items: center;
+      padding: 70px;
     }
+  }
+}
+
+.ligas {
+  color: $amarillo;
 }
