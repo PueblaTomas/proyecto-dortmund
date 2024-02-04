@@ -341,3 +341,8 @@ button{
 .ligas {
     color: #FDB827;
   }
+
+.video{
+    display: flex;
+    justify-content: space-between;
+}

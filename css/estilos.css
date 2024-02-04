@@ -236,6 +236,11 @@ form {
   margin: 40px;
 }
 
+.video {
+  display: flex;
+  justify-content: space-between;
+}
+
 .padre {
   display: grid;
   grid-template-rows: repeat(2, 2fr);
