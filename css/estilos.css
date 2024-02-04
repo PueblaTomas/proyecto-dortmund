@@ -170,7 +170,7 @@ div.nosotros img {
 
 .legend {
   align-self: center;
-  color: #F1F1F1;
+  color: white;
   font-size: 20px;
   margin: 5px;
 }
@@ -209,7 +209,7 @@ form {
 .boton button {
   font-size: 15px;
   background-color: #FDB827;
-  border: 1px solid #0A0A0A;
+  border: 1px solid black;
   width: 75px;
   height: 50px;
 }
@@ -222,10 +222,10 @@ form {
   z-index: 2;
 }
 .accordion .accordion-header h2 {
-  font-size: 24px;
+  font-size: 24px; /* Ajusta el tamaño de la fuente según tus necesidades */
 }
 .accordion .accordion-header .accordion-button {
-  font-size: 18px;
+  font-size: 18px; /* Ajusta el tamaño de la fuente según tus necesidades */
 }
 
 .secun {
