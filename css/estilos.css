@@ -127,19 +127,6 @@ div.nosotros img {
   margin: 20px;
 }
 
-.secun {
-  color: #FDB827;
-  font-size: xx-large;
-  text-align: center;
-  padding: 25px;
-  margin: 40px;
-}
-
-.visitante {
-  text-align: center;
-  color: #F1F1F1;
-}
-
 .entradas {
   text-align: center;
   list-style: none;
@@ -154,23 +141,27 @@ div.nosotros img {
 .entradas li div {
   display: inline-block;
   padding: 5px 10px;
-  border: 1px solid #0A0A0A;
+  border: 1px solid #000;
   border-radius: 5px;
   text-decoration: solid;
   color: #0A0A0A;
   background-color: #FDB827;
 }
 .entradas li div a {
-  color: #0A0A0A;
+  color: black;
   text-decoration: none;
 }
-.entradas li.locales {
+.entradas .visitante {
+  text-align: center;
+  color: #F1F1F1;
+}
+.entradas .locales {
   color: #FDB827;
 }
 
 .legend {
   align-self: center;
-  color: white;
+  color: #F1F1F1;
   font-size: 20px;
   margin: 5px;
 }
@@ -209,7 +200,7 @@ form {
 .boton button {
   font-size: 15px;
   background-color: #FDB827;
-  border: 1px solid black;
+  border: 1px solid #0A0A0A;
   width: 75px;
   height: 50px;
 }

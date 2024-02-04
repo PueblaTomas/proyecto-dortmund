@@ -1,6 +1,6 @@
 .legend {
   align-self: center;
-  color: white;
+  color: $blanco;
   font-size: 20px;
   margin: 5px;
 }
@@ -8,7 +8,7 @@
 .legend2 {
   display: flex;
   justify-content: center;
-  color: #FDB827;
+  color: $amarillo;
   font-size: 20px;
 }
 
@@ -39,8 +39,8 @@ form {
 
   button {
     font-size: 15px;
-    background-color: #FDB827;
-    border: 1px solid black;
+    background-color: $amarillo;
+    border: 1px solid $negro ;
     width: 75px;
     height: 50px;
   }

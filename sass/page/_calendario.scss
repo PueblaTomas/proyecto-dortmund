@@ -1,45 +1,37 @@
-.secun {
-    color: $amarillo;
-    font-size: xx-large;
-    text-align: center;
-    padding: 25px;
-    margin: 40px;
+.entradas {
+  text-align: center;
+  list-style: none;
+
+  ul {
+    list-style: none;
+    padding: 0;
   }
-  
+
+  li {
+    margin-bottom: 10px;
+
+    div {
+      display: inline-block;
+      padding: 5px 10px;
+      border: 1px solid #000;
+      border-radius: 5px;
+      text-decoration: solid;
+      color: $negro;
+      background-color: $amarillo;
+
+      a {
+        color: black;
+        text-decoration: none;
+      }
+    }
+  }
+
   .visitante {
     text-align: center;
     color: $blanco;
   }
-  
-  .entradas {
-    text-align: center;
-    list-style: none;
-  
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-  
-    li {
-      margin-bottom: 10px;
-  
-      div {
-        display: inline-block;
-        padding: 5px 10px;
-        border: 1px solid $negro;
-        border-radius: 5px;
-        text-decoration: solid;
-        color: $negro;
-        background-color: $amarillo;
-  
-        a {
-          color: $negro;
-          text-decoration: none;
-        }
-      }
-  
-      &.locales {
-        color: $amarillo;
-      }
-    }
+
+  .locales {
+    color: $amarillo;
   }
+}
