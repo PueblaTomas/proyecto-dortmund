@@ -81,6 +81,8 @@ footer .redess a img.redes {
   background-position: center;
   text-align: center;
   font-size: x-large;
+  color: #0A0A0A;
+  text-shadow: -2px 3px 0px rgba(197, 193, 1, 0.6);
 }
 
 .perfil {
@@ -88,43 +90,27 @@ footer .redess a img.redes {
   flex-direction: row-reverse;
   width: 100%;
 }
-.perfil section {
+.perfil .section {
   flex: 1;
 }
-.perfil section h3 {
-  color: #FDB827 !important;
-  font-size: 35px;
-  text-align: center;
-}
-
-.bienvenida {
-  margin: 30px;
-  text-align: center;
-}
-.bienvenida p {
-  margin: 20px;
-  font-size: 25px;
-  color: #F1F1F1;
-}
-.bienvenida p .p .boru {
-  font-size: 30px;
-  color: #FDB827;
-}
-
-.nosotros {
+.perfil .nosotros {
   display: flex;
   flex-direction: column;
 }
-
-.snosotros {
+.perfil .snosotros {
   flex: 0 0 45%;
   width: 140%;
 }
-
-div.nosotros img {
-  width: 100%;
-  height: 50%;
+.perfil .bienvenida {
+  margin: 10px;
+  text-align: center;
+}
+.perfil .bienvenida p {
   margin: 20px;
+}
+.perfil .boru {
+  font-size: 30px;
+  color: #FDB827;
 }
 
 .entradas {

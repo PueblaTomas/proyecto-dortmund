@@ -346,3 +346,8 @@ button{
     display: flex;
     justify-content: space-between;
 }
+
+.boru{
+    font-size: 30px;
+    color:#FDB827
+}
