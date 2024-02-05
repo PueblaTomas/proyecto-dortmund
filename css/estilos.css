@@ -273,6 +273,12 @@ textarea {
   display: flex;
   flex-direction: row;
 }
+.palmares div img {
+  margin: 25px;
+  width: 180px;
+  height: 175px;
+  display: block;
+}
 .palmares div p {
   font-family: "Anton", sans-serif;
   font-size: xx-large;

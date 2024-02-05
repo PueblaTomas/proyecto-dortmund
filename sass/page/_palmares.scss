@@ -10,6 +10,12 @@
   div {
     display: flex;
     flex-direction: row;
+    img {
+      margin: 25px;
+      width: 180px;
+      height: 175px;
+      display: block;
+  }
 
     p {
       font-family: 'Anton', sans-serif;
