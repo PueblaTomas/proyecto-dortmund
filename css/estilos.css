@@ -123,6 +123,7 @@ footer .redess a img.redes {
   width: 50%;
   padding-left: 10px;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 .perfil .bienvenida {
   margin: 10px;
@@ -306,5 +307,22 @@ textarea {
 .ligas {
   color: #FDB827;
 }
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .snosotros {
+    display: none;
+  }
+  .header2 {
+    display: none;
+  }
+  section .banner {
+    display: none;
+  }
+  .bienvenida {
+    font-size: 5px;
+  }
+}
+/* Tablet */
 
 /*# sourceMappingURL=estilos.css.map */
