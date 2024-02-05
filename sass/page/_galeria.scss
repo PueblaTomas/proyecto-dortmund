@@ -6,8 +6,10 @@
     margin: 40px;
   }
   .video {
+    margin-top: 40px;
+    margin-bottom: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   
   .padre {
@@ -17,6 +19,9 @@
     gap: 10px;
   
     img {
+      padding-bottom: 25px;
+      padding-left: 15px;
+      padding-right: 15px;
       width: 100%;
       height: 100%;
       display: block;

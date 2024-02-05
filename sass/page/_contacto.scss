@@ -10,6 +10,7 @@
   justify-content: center;
   color: $amarillo;
   font-size: 20px;
+  margin-top: 40px;
 }
 
 .formulario {
@@ -47,6 +48,7 @@ form {
 }
 
 .accordion {
+  font-size: 20px;
   z-index: 1;
   position: relative;
 
@@ -60,7 +62,11 @@ form {
     }
 
     .accordion-button {
-      font-size: 18px; /* Ajusta el tamaño de la fuente según tus necesidades */
+      font-size: 23px; /* Ajusta el tamaño de la fuente según tus necesidades */
     }
   }
+}
+
+textarea {
+  font-size: 14px;
 }
