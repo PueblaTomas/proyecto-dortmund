@@ -261,6 +261,10 @@ textarea {
   display: flex;
   justify-content: space-around;
 }
+.video .video2 {
+  width: 600px;
+  height: 350px;
+}
 
 .padre {
   display: grid;
@@ -333,7 +337,7 @@ textarea {
   }
   .header1 ul .headerlink {
     font-size: 20px;
-    margin: 7px;
+    margin: 4px;
   }
   .header2 p.titulo2 {
     text-align: center;
@@ -346,7 +350,7 @@ textarea {
   .entradas li {
     display: flex;
     justify-content: space-between;
-    font-size: 14px;
+    font-size: 12px;
     margin: 15px;
     text-align: start;
   }
@@ -359,6 +363,12 @@ textarea {
     flex-direction: column;
     margin-bottom: 10px;
     margin-top: 10px;
+  }
+  .video .video2 {
+    width: 95vw;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .palmares div img {
     margin: 10px;
@@ -386,6 +396,20 @@ textarea {
   }
   .formulario {
     width: 80%;
+  }
+}
+@media only screen and (max-width: 437px) {
+  header .header1 nav ul {
+    padding: 0px;
+  }
+  .header1 ul .headerlink {
+    margin: 0;
+  }
+  .header2 p.titulo2 {
+    display: none;
+  }
+  footer img {
+    width: 70px;
   }
 }
 
