@@ -66,4 +66,23 @@
         padding: 0;
     }
 
+    footer {
+        display: flex;
+        justify-content: space-around;
+        .footerlogo{
+            display: none;
+        }
+        .copy {
+            display: none;
+        }
+        .redess{
+
+        }
+    }
+    .accordion .accordion-header .accordion-button {
+        font-size: 20px;
+    }
+    .formulario{
+        width: 80%;
+    }
 }
