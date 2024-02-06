@@ -403,7 +403,7 @@ textarea {
     padding: 0px;
   }
   .header1 ul .headerlink {
-    margin: 0;
+    margin: 1px;
   }
   .header2 p.titulo2 {
     display: none;
