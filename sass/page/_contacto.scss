@@ -67,6 +67,14 @@ form {
   }
 }
 
+.accordion-body {
+  background-color: $negro2;
+  color: $blanco;
+}
+.accordion .accordion-header .accordion-button {
+  background-color: $negro2;
+  color: $amarillo2;
+}
 textarea {
   font-size: 14px;
 }

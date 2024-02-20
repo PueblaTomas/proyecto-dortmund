@@ -243,6 +243,16 @@ form {
   font-size: 23px; /* Ajusta el tamaño de la fuente según tus necesidades */
 }
 
+.accordion-body {
+  background-color: #1D1D1D;
+  color: #F1F1F1;
+}
+
+.accordion .accordion-header .accordion-button {
+  background-color: #1D1D1D;
+  color: #f7a800;
+}
+
 textarea {
   font-size: 14px;
 }
