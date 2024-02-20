@@ -422,5 +422,54 @@ textarea {
     width: 70px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  header .header1 nav ul {
+    font-size: 28px;
+    margin: 0;
+  }
+  footer .copy {
+    display: none;
+  }
+  .nosotros img {
+    display: none;
+  }
+  .perfil .snosotros {
+    display: none;
+  }
+  .perfil .bienvenida {
+    font-size: 30px;
+  }
+  footer {
+    justify-content: space-evenly;
+  }
+  .entradas li {
+    margin-bottom: 30px;
+  }
+  .padre {
+    display: flex;
+    flex-direction: column;
+  }
+  .video {
+    display: flex;
+    flex-direction: column;
+  }
+  .video .video2 {
+    width: auto;
+    margin-bottom: 20px;
+  }
+  form {
+    height: 70vh;
+  }
+  .palmares div img {
+    margin: 30px;
+    width: 30%;
+    height: 200px;
+  }
+  .palmares div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */
