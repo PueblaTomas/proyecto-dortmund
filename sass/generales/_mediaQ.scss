@@ -241,3 +241,17 @@
         align-items: center;
        }
 }
+
+@media only screen and (min-width:320px) and (max-width:349px) {
+    .header1 ul .headerlink{
+        font-size: 15.1px;
+    }
+    footer img {
+        width: 60px;
+    }
+    .palmares div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+}
