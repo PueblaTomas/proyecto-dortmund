@@ -535,9 +535,22 @@ textarea {
   .entradas li {
     display: flex;
     justify-content: space-between;
-    font-size: 14px;
+    font-size: 15px;
     margin: 15px;
     text-align: start;
+  }
+}
+@media only screen and (min-width: 350px) and (max-width: 407px) {
+  .header1 ul .headerlink {
+    font-size: 16.8px;
+  }
+  footer img {
+    width: 65px;
+  }
+  .palmares div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
