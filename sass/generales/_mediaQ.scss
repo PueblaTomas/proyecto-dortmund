@@ -157,3 +157,73 @@
     align-items: center;
    }
 }
+
+@media only screen and (min-width:481px) and (max-width:767px) {
+    header .header1 nav ul {
+        font-size: 19.6px;
+        margin: 0;
+    }
+    header .header1 {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .header2 p.titulo2 {
+        display: none;
+    }
+    header .header1 img {
+        align-self: center;
+    }
+    ul {
+        width: 19%;
+        text-align: center;
+        padding: 0;
+    }
+    footer .copy {
+        display: none;
+    }
+    .footerlogo{
+        display: none;
+    }
+    footer {
+        justify-content: center;
+    }
+    .perfil .snosotros {
+        display: none;
+    }
+    .entradas{
+        width: auto;
+    }
+    .header1 a{
+        align-self: center;
+        width: auto;
+    }
+    .padre{
+        display: flex;
+        flex-direction: column;
+    }
+    .video{
+        display: flex;
+        flex-direction: column;
+       }
+       .video .video2 {
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .palmares div img {
+        margin: 30px;
+        width: 30%;
+        height: 200px;
+       }
+       .palmares div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+       .entradas li{
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        margin: 15px;
+        text-align: start;
+    }
+}
